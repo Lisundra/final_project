@@ -1,0 +1,188 @@
+.main_wrapper {
+    width: 1200px;
+    max-width: 1200px;
+    margin: auto;
+}
+body {
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(247, 241, 235);
+}
+.main_nav_ul {
+    display: flex;
+}
+.main_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.main_nav_ul_li+.main_nav_ul_li {
+    margin-left: 30px;
+}
+.main_catalog {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.social_headline {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #713e34;
+}
+.main_logo img {
+    width: 135px;
+    height: 135px;
+    /* border-radius: 50%; */
+}
+.main_nav_ul_li {
+    font-size: 18px;
+}
+.main_catalog__item_text {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.soc_line_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.soc_link img {
+    width: 25px;
+    height: 25px;
+}
+.soc_link+.soc_link{
+    margin-left: 5px;
+}
+.main_catalog__item_img {
+    width: 385px;
+    height: 500px;
+    border-radius: 10px;
+}
+.left_headlines {
+    font-size: 31px;
+    margin-top: 45px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #80390a;
+}
+.upper_headline {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #8b4c34;
+}
+.text_why {
+    margin-top: 10px;
+    font-size: 18px;
+    max-width: 800px;
+}
+.divider {
+    width: 800px;
+    height: 4px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(232, 207, 207);
+}
+.ul_wrapper {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.points_ul+.points_ul {
+    margin-left: 30px;
+}
+.points_ul_li {
+    font-size: 20px;
+    color: #321903;
+    
+}
+.points_ul {
+    list-style-type: circle;
+}
+.videos {
+    display: flex;
+    margin-top: 20px;
+}
+video+video {
+    margin-left: 30px;
+}
+.center_headline {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #a03f3e;
+    font-size: 44px;
+    text-transform: uppercase;
+}
+.link_text {
+    font-size: 20px;
+    color: #bd6867;
+}
+.soc_link{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/* Форма заявки */
+.obratnuj-zvonok{
+	width: 100%;
+	max-width: 350px;
+    font-size: 18px;
+    color: #321903;
+}
+.form-zvonok{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.form-zvonok div{
+	padding: 15px 0;
+}
+.bot-send-mail{
+	box-sizing: border-box;
+	width: 100%;
+}
+.form-zvonok label,.form-zvonok input{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+.form-zvonok label{
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.form-zvonok input{
+	padding: 10px 15px;
+	margin-top: 10px;
+}
+.form-zvonok label span{
+	color: rgb(210, 119, 119);
+}
+.form-zvonok .bot-send-mail{
+	padding: 15px;
+	margin-top: 10px;
+	background: none;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	background-color: #563021;
+	cursor: pointer;
+	border: 3px #6e3b22 solid;
+	border-radius: 5px;
+}
+.form-zvonok .bot-send-mail:hover{
+	color: #b24d00;
+	background-color: #fff;
+}
